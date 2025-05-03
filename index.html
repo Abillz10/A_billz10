@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" description="Group9">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+       <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <title>FOODIE RESTURANT | GROUP 9</title>
+</head>
+<body>
+  <!-----------Header-starts----------->
+<header>
+  <a href="#"><img src="img.png" alt="logo_img"></a>
+  <nav class="navbar">
+    <a href="#Home" class="active">Home</a>
+    <a href="#Blog">Blog</a>
+    <a href="#Gallery">Gallery</a>
+    <a href="#Reservation">Reservation</a>
+    <a href="#About">About</a>
+  </nav>
+  <div class="icons">
+    <i class="fa fa-bars" id="menu"></i>
+    <i class="fa fa-search" id="searchbtn"></i>
+    <i class="fa fa-heart"></i>
+   <a href="#"><i class="fa fa-shopping-cart" id="cartbtn"></i></a>
+  </div>
+</header>
+  <!-----------Header-ends-------------->
+  <!--------cart system-------------->
+  <div class="cart" id="cart">
+    <div class="cart-container">
+      <h2>cart section</h2>
+      <div class="listCart">
+          <div class="item">
+            <div class="image">
+              <img src="food.png">
+            </div>
+          </div>
+        </div>
+        <div class="cart-btn">
+          <button class="checkout">CHECKOUT</button>
+          </div>
+    </div>
+
+    <i class="fa fa-times" id="closeCart"></i>
+  </div>
+  <!---------search--------------->
+  
+  <div class="search" id="search">
+    <form class="search-form">
+      <i class="fa fa-search" id="search-icon"></i>
+      <input type="search" placeholder="what are you looking for"class="search-input">
+    </form>
+    <i class="fa fa-times" id="search-close"></i>
+  </div>
+  <!-------Slider-section-starts-------->
+<div class="home" id="Home">
+  <div class="swiper home-slider">
+    <div class="swiper-wrapper wrapper">
+      <div class="swiper-slide slide slide1">
+        <div class="content">
+          <h3>Delicious Foodie</h3>
+          <h1>Gift voucher</h1>
+          <p>An easy online ordering and payment options with exclusive promotions and discounts to help you save money.</p>
+          <a href="login.html" class="btn">Get started</a>
+        </div>
+      </div>
+      <div class="swiper-slide slide slide2">
+  <div class="content">
+    <h3>we re open</h3>
+    <h1>Fresh foods</h1>
+    <p>Welcome to foodie delights! We're thrilled to announce that we're now open for business.Come taste the difference at foodie delights!</p>
+    <a href="login.html" class="btn">Get started</a>
+  </div>
+</div>
+<div class="swiper-slide slide slide3">
+   <div class="content">
+      <h3>sale of 10% off this dish</h3>
+      <h1>fried chicken</h1>
+      <p>Don't miss out on our exclusive offer! Get 10% off our signature "jollof" for a limited time. Hurry and order now to enjoy this delicious deal!</p>
+        <a href="login.html" class="btn">Get started</a>
+      </div>
+     </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+<!----------slider--section--ends----->
+
+<section class="welcome">
+  <h1 class="heading">WELCOME TO FOODIE</h1>
+  <center><h3 class="sub-heading">~Luxury & Quality</h3></center>
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="img3.jpg" alt="food_img">
+      </div>
+      <div class="contents">
+        <h3>PROFESSIONAL LEVEL</h3>
+        <p>we're passionate about serving up delicious, high-quality dishes that are sure to satisfy your cravings. and Our team of skilled chefs and hospitality experts are dedicated to providing an exceptional experience.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+    <div class="box">
+  <div class="image">
+    <img src="cake.jpg" alt="food_img">
+  </div>
+  <div class="contents">
+    <h3>GOOD FOOD GUARANTED</h3>
+<p>We're passionate about food and dedicated to providing the best possible experience for our customers.
+Our team is always here to help, whether you have a question about your order.or just want to share your love of Food.</p>
+    <a href="#" class="btn">Read More</a>
+  </div>
+</div>
+<div class="box">
+  <div class="image">
+    <img src="img4.jpg" alt="food_img">
+  </div>
+  <div class="contents">
+    <h3>FAST FOOD DELIVERY</h3>
+    <p>Fast and Reliable Delivery
+We work with our partners to ensure that your food is delivered quickly as soon as possible and reliably, so you can enjoy your meal at the time that suits you best.<br><br></p>
+    <a href="#" class="btn">Read More</a>
+  </div>
+</div>
+</div>
+</section>
+
+ <section class="our-menu" id="Gallery">
+   <h1 class="heading">our food menu</h1>
+  <center><h3 class="sub-heading">~see what we offer~</h3></center>
+  <div class="menu-container">
+  <div class="menu-item">
+    <div class="menu-image">
+      <img src="gallery_4.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>Cake</h2>
+      <p>Moist and delicious, our cakes are perfect for any occasion.From classic vanilla to decadent chocolate,our cakes are baked fresh daily.</p>
+      <h4>$20.55</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+  <div class="menu-item">
+    <div class="menu-image">
+      <img src="gallery_2.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>ice cream</h2>
+      <p>Tart and fruity, our raspberry ice cream is a delightful treat.Made with fresh raspberries and a touch of sugar.</p>
+      <h4>$22.99</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+    <div class="menu-image">
+      <img src="gallery_1.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>Bread Sandwich</h2>
+      <p>Enjoy our freshly made sandwiches, filled with a variety of ingredients,including meats,cheeses,and vegetables.</p>
+      <h4>$20</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+    <div class="menu-image">
+      <img src="sandwich.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>sandwich</h2>
+      <p>Enjoy our freshly made sandwiches, filled with a variety of ingredients From classic club sandwiches to gourmet grilled cheese.</p>
+      <h4>$39.00</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+    <div class="menu-image">
+      <img src="Hot_dog.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>hot dog</h2>
+      <p>Hot dog served on a poppy seed bun with mustard,relish,onions,tomatoes, sport peppers,and pickle spear.</p>
+      <h4>$89.99</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+    <div class="menu-image">
+      <img src="chocolate.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>chocolate</h2>
+      <p>Rich and indulgent, our chocolates are crafted with the finest ingredients.From creamy truffles to rich brownies.</p>
+      <h4>$24.99</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+    <div class="menu-image">
+      <img src="pasta.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>pasta</h2>
+      <p>Savor our delicious pasta dishes, made with fresh ingredients and cooked to perfection.our pasta options are sure to delight.</p>
+      <h4>$20</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+    <div class="menu-image">
+      <img src="ice_cream.jpg" alt="">
+    </div>
+    <div class="small-card">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="menu-content">
+      <h2>ice cream</h2>
+      <p>Indulge in our creamy cakes, featuring rich and velvety textures. From classic cheesecakes to decadent chocolate cakes.</p>
+      <h4>$44</h4>
+      <div class="menu-star">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <a href="#g" class="menu-btn">Order Now</a>
+    </div>
+  </div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="image12.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>Fruity Snack</h2>
+    <p>Juicy and flavorful, our burgers are made with high-quality beef and topped with a variety of ingredients.</p>
+    <h4>$75</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="lasagna.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>Desserts</h2>
+    <p>Enjoy our freshly made desserts filled with a variety of ingredients, including meats,cheeses,and vegetables.</p>
+    <h4>$55.00</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="image5.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>Pasta</h2>
+    <p>A spicy and flavorful dish made with penne pasta,vodka-infused tomato sauce,and grilled chicken or sausage.</p>
+    <h4>$40</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="img13.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>Burger</h2>
+    <p>Juicy burgers made with high-quality beef,topped with crispy lettuce, tomato, and cheese choose from a variety of options.</p>
+    <h4>$33.00</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="gallery_3.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>Cup Cake</h2>
+    <p>Try yourself to our decadent classic chocolate cake to gourmet cheesecakes, our desserts are sure to satisfy your sweet tooth.</p>
+    <h4>$38.99</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-stroke"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="gallery_6.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>Fruity Cake</h2>
+    <p>Treat yourself to our decadent desserts, including cakes, pies, and ice cream.</p>
+    <h4>$20.50</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+<div class="menu-item">
+  <div class="menu-image">
+    <img src="gallery_5.jpg" alt="">
+  </div>
+  <div class="small-card">
+    <i class="fa fa-heart"></i>
+  </div>
+  <div class="menu-content">
+    <h2>pizza</h2>
+    <p>Indulge in our mouth-watering pizzas, topped with fresh ingredients and baked to perfection.</p>
+    <h4>$87.00</h4>
+    <div class="menu-star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+    <a href="#g" class="menu-btn">Order Now</a>
+  </div>
+</div>
+  </div>
+  
+ </section>
+ 
+ 
+ 
+ 
+ 
+<!--------news section--------------->
+<section class="blog" id="Blog">
+  <h1 class="heading">latest news</h1>
+  <center><h3 class="sub-heading">~Articles~</h3></center>
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="9jafood1.jpg">
+      </div>
+      <div class="content">
+        <h3>Recipe Showcase</h3>
+        <p>Feature popular Nigerian dishes like jollof rice, egusi soup, fufu, and puff puff, alongside less common, regional specialties from Lagos and other parts of Nigeria.</p>
+        <a href="#g">READ MORE</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="9jafood2.jpg">
+      </div>
+      <div class="content">
+        <h3>Great Recipes</h3>
+        <p>Jollof Rice 101: Mastering the Art of the Nigerian Staple" (recipe and cooking tips).which is a tomato and pepper infused rice with a layer of crispy rice at the bottom.</p>
+        <a href="#g">READ MORE</a>
+      </div>
+    </div>
+<div class="box">
+      <div class="image">
+        <img src="9jafood3.jpg">
+      </div>
+      <div class="content">
+        <h3>Daily Fresh Food</h3>
+        <p>Dive into the ingredients that make Nigerian dishes unique, like ogbono, bitter leaf, and various spices, providing information on sourcing, preparation, and uses.</p>
+        <a href="#g">READ MORE</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="reservation" id="Reservation">
+  <div class="image">
+    <img src="order_image.png" width="100%" height="100%">
+  </div>
+  <div class="form">
+    <h1 class="heading">book a table</h1>
+    <center><h3 class="sub-heading">~check out our place~</h3></center>
+    <form>
+      <div class="form-holder"><div>
+        <select>
+          <option>1 people</option>
+          <option>2 people</option>
+          <option>3 people</option>
+          <option>4 people</option>
+          <option>5 people</option>
+        </select>
+        <input type="text" placeholder="Time">
+        <input type="text" placeholder="Phone">
+       </div>
+       <div>
+         <input type="text" placeholder="Date">
+         <input type="text" placeholder="Name">
+         <input type="email" placeholder="Email">
+       </div>
+      </div>
+      <center><a href="#" class="btn">Book Now</a></center>
+    </form>
+  </div>
+</div>
+
+<section class="About" id="About">
+   <h1 class="heading">About Us</h1>
+  <center><h3 class="sub-heading">~why choose us~</h3></center>
+  <div class="About-content">
+    <div class="About-image">
+      <img src="main_img.png">
+    </div>
+    <div class="About-text">
+    <h4>At foodie delights, we're dedicated to providing the best food ordering experience for our customers.
+Here are just a few reasons why you should choose us:</h4>
+<li><p>Easy and Convenient Ordering
+Our website and mobile app make it easy to order food online, with a simple and intuitive interface that lets you browse menus, place orders.</p></li><br>
+<li><p>Exclusive Promotions and Discounts
+We offer exclusive promotions and discounts to our customers, so you can save money and enjoy more of your favorite foods.</p></li>
+</div>
+  </div>
+</section>
+
+<!--------footer section--------->
+<section class="footer">
+  <img src="img.png" alt="img_logo" class="footer_logo">
+  <div class="f_container">
+    <div>
+      <h3>ABOUT US</h3>
+      <p>Sign up for our newsletter or follow us on social media to stay up-to-date with the latest news, promotions, and new restaurant additions. We can't wait to welcome you to our community of foodies!</p>
+    </div>
+    <div>
+      <h3>GET NEWS & OFFERS</h3>
+      <input type="email"  placeholder="enter your email..">
+      <button class="btn">Subscribe</button>
+      <ul>
+  <li><i class="fab fa-facebook"></i></li>
+  <li><i class="fab fa-twitter"></i></li>
+  <li><i class="fab fa-linkedin"></i></li>
+  <li><i class="fab fa-github"></i></li>
+      </ul>
+    </div>
+    <h3>CONTACT US</h3>
+    <span>Foodie Resturants project Grp9</span>
+    <span>+(234) 9114554820</span>
+    <span>admin@foodie-resturants.com</span>
+    <span>www.Foodie-Resturants.com</span>
+  </div>
+  <p>&copy; 2025 reserved by FUTM-IFT211 Group9 </p>
+</section>
+<!-----------btn-up------------->
+
+<a href="#"><button class="top-btn"><i class="fa fa-angle-up"></i></button></a>
+
+<!--Swiper JS------>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="main.js" content="text/js"></script> 
+  </body>
+</html>

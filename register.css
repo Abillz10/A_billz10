@@ -1,0 +1,103 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  text-decoration:none;
+}
+
+body {
+  display:flex;
+  justify-content:center;
+  font-family:sans-serif;
+  min-height:100vh;
+  align-items:center;
+  background:url("Background1.jpg") no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+
+.wrapper {
+  background-color:transparent;
+  border-radius:10px;
+  padding:30px 40px;
+  align-items:center;
+  border:2px solid rgba(255, 255, 255, .2);
+  box-shadow:0 0 10px rgba(0, 0, 0, .2);
+  backdrop-filter:blur(50%);
+}
+.wrapper h1 {
+  color:#fff;
+  font-size:30px;
+  text-align:center;
+}
+.wrapper .text-box {
+  width:100%;
+  height:50px;
+  position:relative;
+  margin:30px 0;
+}
+.text-box input {
+  height:100%;
+  width:100%;
+  border:none;
+  outline:none;
+  color:#fff;
+  border:2px solid green;
+  border-radius:40px;
+  background:transparent;
+  padding:20px 45px 20px 20px;
+  font-size:16px;
+}
+.text-box i {
+  font-size:20px;
+  color:yellow;
+  position:absolute;
+  right:20px;
+  top:50%;
+  transform:translatey(-50%);
+  
+}
+.text-box input:hover{
+  border:2px solid yellow;
+}
+.text-box input::placeholder {
+  color:#fff;
+  text-align:center;
+}
+.wrapper .btn {
+  width:100%;
+  height:45px;
+  background:green;
+  border:none;
+  outline:none;
+  border-radius:40px;
+  box-shadow:0 0 10px rgba(0, 0, 0, .1);
+  cursor:pointer;
+  font-size:16px;
+  font-weight:600;
+  color:#fff;
+}
+.wrapper .btn:hover {
+  background:yellow;
+  color:#fff;
+  transition:0.5s ease;
+}
+
+.wrapper .Account {
+  font-size:14px;
+  margin:20px 0 15px;
+  text-align:center;
+}
+.Account p {
+  color:#fff;
+}
+.Account p a {
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  
+}
+.Account p a:hover {
+  text-decoration:underline;
+}
